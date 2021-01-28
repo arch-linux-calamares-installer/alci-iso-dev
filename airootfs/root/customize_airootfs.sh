@@ -20,9 +20,9 @@ passwd -d root
 systemctl set-default graphical.target
 systemctl enable sddm.service
 
-pacman-key --init
-pacman-key --populate archlinux
-pacman-key --populate arcolinux
+# pacman-key --init
+# pacman-key --populate archlinux
+# pacman-key --populate arcolinux
 
 groupsalci="adm,audio,disk,floppy,log,network,optical,rfkill,storage,video,wheel,sys"
 useradd -m -g users -G $groupsalci -s /bin/bash liveuser
