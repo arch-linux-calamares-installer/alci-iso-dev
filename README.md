@@ -47,6 +47,7 @@ Delete the ArcoLinux line in /archiso/airootfs/etc/systemd/system/pacman-init.se
 # Chaotic keys and mirror
 
 If you want to include packages from the Chaotic-aur repo then add its packages to archiso/packages.x86-64.
+
 chaotic-mirror
 chaotic-keys
 
