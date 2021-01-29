@@ -140,13 +140,13 @@ polkit-gnome
 
 ##### xorg applications
 
-#xorg-server
-#xorg-apps
+xorg-server
+xorg-apps
 
 ##### lightdm display manager
 
-#lightdm
-#lightdm-gtk-greeter
+lightdm
+lightdm-gtk-greeter
 
 ##### sddm display manager
 
@@ -172,3 +172,4 @@ polkit-gnome
 
 arcolinux-mirrorlist-git
 arcolinux-keyring
+arcolinux-wallpapers-git
