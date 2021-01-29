@@ -38,22 +38,39 @@ In order to switch fast we copy/paste the content of the other files in archiso/
 
 
 
-#ArcoLinux keys and mirror
+# ArcoLinux keys and mirror
 
 Since this is an ArcoLinux project after all, the ArcoLinux keys are in by default.
 Want a vanilla Arch Linux without any ArcoLinux packages then you do not need our keys.
 Delete the ArcoLinux line in /archiso/airootfs/etc/systemd/system/pacman-init.service and they will not be installed.
 
-#Chaotic keys and mirror
+# Chaotic keys and mirror
 
 If you want to include packages from the Chaotic-aur repo then add its packages to archiso/packages.x86-64.
 chaotic-mirror
 chaotic-keys
 
+# Archiso/packages.x86_64
+
+Check the bottom of the file and install the necessary packages
+
+arcolinux-keyring
+arcolinux-mirror
+
+chaotic-keyring
+chaotic-mirror
+
+# Build process
+
+After editing the necessary files you can start building.
 
 Start building your own ALCI version with the scripts in the folder
 
-installation-scripts
+<b>installation-scripts</b>
+
+Use 30 will clean your pacman cache and redownload every package
+
+Use 40 to use your current pacman cache - only downloads what is needed
 
 You will get an iso in the ~/Alci-Out.
 
