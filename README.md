@@ -83,7 +83,7 @@ Install these two packages on your system if you want to include Chaotic package
 
 `sudo pacman -S chaotic-mirror chaotic-keyring`
 
-Accept the **key of Pedro** from Chaotic during installation.
+Accept the **key of Pedro** from Chaotic during installation or install chaotic-keyring.
 
 After editing the necessary files you can start building.
 
