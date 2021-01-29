@@ -104,3 +104,12 @@ Still not sure what to do.
 Check out the playlist on Youtube
 
 https://www.youtube.com/playlist?list=PLlloYVGq5pS4vhYQuLikS8dhDjk6xaiXH
+
+
+# Tip
+
+Sometime a "proc" folder stays mounted.
+
+Unmount it with this
+
+sudo umount /home/{username}/...  use the TAB
