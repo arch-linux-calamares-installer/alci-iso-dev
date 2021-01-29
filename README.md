@@ -10,7 +10,7 @@ Download the content of the github with (use the terminal)
 
 git clone https://github.com/arcolinuxiso/alci-iso
 
-#pacman.conf
+# Pacman.conf
 
 Only the archiso/pacman.conf will be used to download your packages.
 
