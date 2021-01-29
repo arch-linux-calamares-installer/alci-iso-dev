@@ -10,7 +10,7 @@ Download the content of the github with (use the terminal)
 
 `git clone https://github.com/arcolinuxiso/alci-iso`
 
-# Pacman.conf
+# Pacman.conf in archiso
 
 Only the archiso/pacman.conf will be used to download your packages.
 
@@ -35,6 +35,12 @@ In order to switch fast we copy/paste the content of the other files in archiso/
     no-extra-pacman.conf
         as vanilla as Arch Linux
         needs NO extra packages - mirrorlist and keys - no multilib
+
+# Pacman.conf in archiso/airootfs/etc/
+
+This will be your future system. 
+Include the repositories you want.
+It will not be used to build the iso.
 
 
 # Keys and Mirrors
