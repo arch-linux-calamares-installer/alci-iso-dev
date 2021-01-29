@@ -40,9 +40,9 @@ In order to switch fast we copy/paste the content of the other files in archiso/
 
 #ArcoLinux keys and mirror
 
-    Since this is an ArcoLinux project after all, the ArcoLinux keys are in by default.
-    Want a vanilla Arch Linux without any ArcoLinux packages then you do not need our keys.
-    Delete the ArcoLinux line in /archiso/airootfs/etc/systemd/system/pacman-init.service and they will not be installed.
+Since this is an ArcoLinux project after all, the ArcoLinux keys are in by default.
+Want a vanilla Arch Linux without any ArcoLinux packages then you do not need our keys.
+Delete the ArcoLinux line in /archiso/airootfs/etc/systemd/system/pacman-init.service and they will not be installed.
 
 #Chaotic keys and mirror
 
