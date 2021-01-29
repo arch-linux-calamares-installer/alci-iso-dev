@@ -116,3 +116,9 @@ Unmount it with this
 
 sudo umount /home/{username}/...  use the TAB
 
+
+# Tip
+
+We have added a /etc/pacman-more.conf file to your future system.
+That way we have the ArcoLinux repos and Chaotic repos if we do decide to install it after all.
+Remember to install the mirror and keys.
