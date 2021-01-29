@@ -54,6 +54,7 @@ chaotic-keys
 
 Check the bottom of the file and install the necessary packages
 
+
 arcolinux-keyring
 arcolinux-mirror
 
