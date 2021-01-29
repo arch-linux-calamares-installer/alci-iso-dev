@@ -8,7 +8,7 @@ Use the correct version for building the iso.
 
 Download the content of the github with (use the terminal)
 
-'git clone https://github.com/arcolinuxiso/alci-iso'
+`git clone https://github.com/arcolinuxiso/alci-iso`
 
 # Pacman.conf
 
