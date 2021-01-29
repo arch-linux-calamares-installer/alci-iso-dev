@@ -75,17 +75,19 @@ Now you can add the packagename from the repo.
 
 After editing the necessary files you can start building.
 
-Start building your own ALCI version with the scripts in the folder
+Use the scripts from this folder:
 
 <b>installation-scripts</b>
 
-Use 30 will clean your pacman cache and redownload every package
+Use script 30 and it will clean your pacman cache and redownload every package it needs.
 
-Use 40 to use your current pacman cache - only downloads what is needed
+Use script 40 to use your current pacman cache - it will only downloads what is needed
 
-You will get an iso in the ~/Alci-Out.
+You will find the iso in this folder:
 
-Burn it and use it.
+ ~/Alci-Out
+
+Burn it with etcher or other tools and use it.
 
 Still not sure what to do.
 
