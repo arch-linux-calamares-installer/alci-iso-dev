@@ -10,10 +10,46 @@ Download the content of the github with (use the terminal)
 
 git clone https://github.com/arcolinuxiso/alci-iso
 
-Change the content of archiso/packages.x86-64 or not.
+#pacman.conf
 
-Change the content of archiso/airootfs/etc/pacman.conf or not.
-You can add the ArcoLinux repos or the Chaotic-aur repos or so many others.
+Only the archiso/pacman.conf will be used to download your packages.
+
+We created several versions of pacman.conf to be able to switch fast.
+
+In order to avoid future questions we activated multilib by default on all except no-extra-pacman.conf.
+
+In order to switch fast we copy/paste the content of the other files in archiso/pacman.conf.
+
+    arcolinux-chaotic-pacman.conf
+        contains both ArcoLinux and chaotic-aur
+        needs extra packages - mirrorlist and keys
+
+    arcolinux-pacman.conf
+        contains only ArcoLinux
+        needs extra packages - mirrorlist and keys
+
+    chaotic-pacman.conf
+        contains only chaotic-aur
+        needs extra packages - mirrorlist and keys
+
+    no-extra-pacman.conf
+        as vanilla as Arch Linux
+        needs NO extra packages - mirrorlist and keys - no multilib
+
+
+
+#ArcoLinux keys and mirror
+
+    Since this is an ArcoLinux project after all, the ArcoLinux keys are in by default.
+    Want a vanilla Arch Linux without any ArcoLinux packages then you do not need our keys.
+    Delete the ArcoLinux line in /archiso/airootfs/etc/systemd/system/pacman-init.service and they will not be installed.
+
+#Chaotic keys and mirror
+
+	If you want to include packages from the Chaotic-aur repo then add its packages to archiso/packages.x86-64.
+    chaotic-mirror
+    chaotic-keys
+
 
 Start building your own ALCI version with the scripts in the folder
 

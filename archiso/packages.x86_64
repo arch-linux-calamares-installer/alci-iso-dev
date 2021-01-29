@@ -172,4 +172,14 @@ lightdm-gtk-greeter
 
 arcolinux-mirrorlist-git
 arcolinux-keyring
+
+#test
 arcolinux-wallpapers-git
+
+##### want to add/use the Chaotic repo
+
+chaotic-mirrorlist
+chaotic-keyring
+
+#test
+picom-ibhagwan-git
