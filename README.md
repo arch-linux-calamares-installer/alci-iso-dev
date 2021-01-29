@@ -73,6 +73,10 @@ Now you can add the packagename from the repo.
 
 # Build process
 
+Install these two packages on your system if you want to include Chaotic packages on the iso
+
+`sudo pacman -S chaotic-mirror chaotic-keyring`
+
 After editing the necessary files you can start building.
 
 Use the scripts from this folder:
