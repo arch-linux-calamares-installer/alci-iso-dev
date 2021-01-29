@@ -140,13 +140,13 @@ polkit-gnome
 
 ##### xorg applications
 
-xorg-server
-xorg-apps
+#xorg-server
+#xorg-apps
 
 ##### lightdm display manager
 
-lightdm
-lightdm-gtk-greeter
+#lightdm
+#lightdm-gtk-greeter
 
 ##### sddm display manager
 
@@ -170,16 +170,16 @@ lightdm-gtk-greeter
 
 ##### want to add/use the ArcoLinux repos
 
-arcolinux-mirrorlist-git
-arcolinux-keyring
+#arcolinux-mirrorlist-git
+#arcolinux-keyring
 
 #test
-arcolinux-wallpapers-git
+#arcolinux-wallpapers-git
 
 ##### want to add/use the Chaotic repo
 
-chaotic-mirrorlist
-chaotic-keyring
+#chaotic-mirrorlist
+#chaotic-keyring
 
 #test
-picom-ibhagwan-git
+#picom-ibhagwan-git

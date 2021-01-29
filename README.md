@@ -122,3 +122,10 @@ sudo umount /home/{username}/...  use the TAB
 We have added a /etc/pacman-more.conf file to your future system.
 That way we have the ArcoLinux repos and Chaotic repos if we do decide to install it after all.
 Remember to install the mirror and keys.
+
+# History
+
+The list of packages after a clean installation - no extras
+
+2021-01-29
+https://pastebin.com/kjYyrKZx
