@@ -37,8 +37,9 @@ In order to switch fast we copy/paste the content of the other files in archiso/
         needs NO extra packages - mirrorlist and keys - no multilib
 
 
+# Keys and Mirrors
 
-# ArcoLinux keys and mirror
+## ArcoLinux keys and mirror
 
 Since this is an ArcoLinux project after all, the ArcoLinux keys are in by default.
 Want a vanilla Arch Linux without any ArcoLinux packages then you do not need our keys.
@@ -46,7 +47,7 @@ Delete the ArcoLinux line in
 `/archiso/airootfs/etc/systemd/system/pacman-init.service`
 and they will not be installed.
 
-# Chaotic keys and mirror
+## Chaotic keys and mirror
 
 If you want to include packages from the Chaotic-aur repo then add its packages to archiso/packages.x86-64.
 
