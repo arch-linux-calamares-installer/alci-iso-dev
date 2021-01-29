@@ -83,6 +83,8 @@ Install these two packages on your system if you want to include Chaotic package
 
 `sudo pacman -S chaotic-mirror chaotic-keyring`
 
+Accept the **key of Pedro** from Chaotic during installation.
+
 After editing the necessary files you can start building.
 
 Use the scripts from this folder:
@@ -113,3 +115,4 @@ Sometime a "proc" folder stays mounted.
 Unmount it with this
 
 sudo umount /home/{username}/...  use the TAB
+
