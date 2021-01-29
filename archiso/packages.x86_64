@@ -133,6 +133,7 @@ dex
 bash-completion
 grub
 os-prober
+polkit-gnome
 
 #######################################################
 ###                    EXTRAS                       ###

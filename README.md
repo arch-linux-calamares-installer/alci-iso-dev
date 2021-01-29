@@ -10,13 +10,16 @@ Download the content of the github with (in terminal)
 
 git clone https://github.com/arcolinuxiso/alci-iso
 
-Change the content of packages.x86-64 or not.
+Change the content of archiso/packages.x86-64 or not.
 
-Start building your own ALCI version with 
+Change the content of archiso/airootfs/etc/pacman.conf or not.
+You can add the ArcoLinux repos or the Chaotic-aur repos or so many others.
 
-sudo ./build.sh -v
+Start building your own ALCI version with the scripts in the folder
 
-You will get an iso in the OUT folder.
+installation-scritps
+
+You will get an iso in the ~/Alci-Out.
 
 Burn it and use it.
 

@@ -1,23 +1,17 @@
-#!/bin/bash
-#set -e
-##################################################################################################################
-# Author 	: 	Erik Dubois
-# Website 	: 	https://www.erikdubois.be
-# Website	:	https://www.arcolinux.info
-# Website	:	https://www.arcolinux.com
-# Website	:	https://www.arcolinuxd.com
-# Website	:	https://www.arcolinuxforum.com
-##################################################################################################################
+#!/usr/bin/env bash
 #
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
-#
-##################################################################################################################
-# change into your name and email.
+# SPDX-License-Identifier: GPL-3.0-or-later
 
-sudo rm -r out/
-sudo rm -r work/
-
-
-echo "################################################################"
-echo "###################    T H E   E N D      ######################"
-echo "################################################################"
+echo "################################################################## "
+tput setaf 2
+echo "This file is kept here for continuity with the videos"
+echo "We actually use the script in the folder installation-scripts"
+echo "30 will first clean your cache and then build"
+echo "40 will reuse your cache and build"
+echo "Use the scripts in the folder instead"
+echo "Do not run the scripts with sudo"
+echo "For example :"
+echo "./40-build-the-iso-local-again.sh"
+echo "or else your iso will be in the /root folder"
+tput sgr0
+echo "################################################################## "

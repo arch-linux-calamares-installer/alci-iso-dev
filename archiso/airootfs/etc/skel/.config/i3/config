@@ -245,6 +245,9 @@ font pango:Noto Mono Regular 13
 # ALCI launch calamares
 exec --no-startup-id dex /etc/xdg/autostart/calamares.desktop
 
+#Authentication dialog
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
 #####################################################################################################################
 #################                          applications keyboard shortcuts                          #################
 #####################################################################################################################
