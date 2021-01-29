@@ -120,8 +120,8 @@ sddm
 i3-gaps
 
 alci-calamares
-alci-calamares-config
-#alci-calamares-config-dev
+#alci-calamares-config
+alci-calamares-config-dev
 xterm
 dex
 
