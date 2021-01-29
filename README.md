@@ -58,15 +58,15 @@ Check the bottom of the file and install the necessary packages
 
 If you plan to use ArcoLinux packages
 
-arcolinux-keyring
+* arcolinux-keyring
 
-arcolinux-mirror
+* arcolinux-mirror
 
 If you plan to use Chaotic packages
 
-chaotic-keyring
+* chaotic-keyring
 
-chaotic-mirror
+* chaotic-mirror
 
 
 Now you can add the packagename from the repo.
