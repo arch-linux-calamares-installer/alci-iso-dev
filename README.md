@@ -115,6 +115,22 @@ Check out the playlist on Youtube
 https://www.youtube.com/playlist?list=PLlloYVGq5pS4vhYQuLikS8dhDjk6xaiXH
 
 
+# Arch Linux users
+
+In order to get the keys in from ArcoLinux and Chaotic.
+
+ArcoLinux
+
+Both packages are on github. Keys and mirrors.
+https://github.com/arcolinuxiso/alci_repo/tree/master/x86_64
+Download them and install them via pacman -U ...
+
+
+Chaotic
+
+Both packages are on the AUR. Keys and mirrors.
+
+
 # Tip
 
 Sometime a "proc" folder stays mounted.
