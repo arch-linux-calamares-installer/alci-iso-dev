@@ -182,7 +182,8 @@ linux-headers
 ##### want to have a desktop
 
 #test
-xfce4 xfce4-goodies
+xfce4
+xfce4-goodies
 
 
 
