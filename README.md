@@ -60,6 +60,8 @@ If you want to include packages from the Chaotic-aur repo then add its packages 
 
 # Archiso/packages.x86_64
 
+Only the archiso/packages.x86-64 files will be used.
+
 Check the bottom of the file and install the necessary packages
 
 If you plan to use ArcoLinux packages
@@ -74,8 +76,13 @@ If you plan to use Chaotic packages
 
 * chaotic-mirror
 
-
 Now you can add the packagename from the repo.
+
+We have added a backup of the original file called original.packages.x86_64.
+We have added an example called example-packages.x86_64.
+
+Use meld to compare differences.
+
 
 # Build process
 
