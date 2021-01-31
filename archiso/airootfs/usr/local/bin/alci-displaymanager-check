@@ -15,56 +15,19 @@
 #
 ###############################################################################
 
-result=$(systemd-detect-virt)
-
-#if installed on vmware
-if [ $result = "vmware" ];
-	then
-		#activate vmware
-		if pacman -Qi open-vm-tools &> /dev/null; then
-			systemctl enable vmtoolsd.service
-			systemctl start vmtoolsd.service
-		fi
-		#remove virtualbox
-		if [ -f /etc/xdg/autostart/vboxclient.desktop ]; then
-			rm /etc/xdg/autostart/vboxclient.desktop
-		fi
-
-		if pacman -Qi virtualbox-guest-utils &> /dev/null; then
-			pacman -Rns virtualbox-guest-utils --noconfirm
-		fi
+package=lightdm
+if pacman -Qs $package > /dev/null ; then
+  ln -sf /usr/lib/systemd/system/lightdm.service /etc/systemd/system/display-manager.service
 fi
-
-if [ $result = "oracle" ];
-	then
-		#remove vmware
-		if [ -f /etc/xdg/autostart/vmware-user.desktop ]; then
-   		rm /etc/xdg/autostart/vmware-user.desktop
-		fi
-
-		if pacman -Qi open-vm-tools &> /dev/null; then
-			pacman -Rns open-vm-tools --noconfirm
-		fi
+package=sddm
+if pacman -Qs $package > /dev/null ; then
+    ln -sf /usr/lib/systemd/system/sddm.service /etc/systemd/system/display-manager.service
 fi
-
-if [ $result = "none" ];
-	then
-		#remove virtualbox
-		if [ -f /etc/xdg/autostart/vboxclient.desktop ]; then
-   		rm /etc/xdg/autostart/vboxclient.desktop
-		fi
-
-		if pacman -Qi virtualbox-guest-utils &> /dev/null; then
-			pacman -Rns virtualbox-guest-utils --noconfirm
-		fi
-		#remove vmware
-		if [ -f /etc/xdg/autostart/vmware-user.desktop ]; then
-   		rm /etc/xdg/autostart/vmware-user.desktop
-		fi
-
-		if pacman -Qi open-vm-tools &> /dev/null; then
-			pacman -Rns open-vm-tools --noconfirm
-		fi
-
-	  systemctl disable virtual-machine-check.service
+package=gdm
+if pacman -Qs $package > /dev/null ; then
+    ln -sf /usr/lib/systemd/system/gdm.service /etc/systemd/system/display-manager.service
+fi
+package=lxdm
+if pacman -Qs $package > /dev/null ; then
+    ln -sf /usr/lib/systemd/system/lxdm.service /etc/systemd/system/display-manager.service
 fi
