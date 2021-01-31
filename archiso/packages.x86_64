@@ -153,7 +153,7 @@ lightdm-gtk-greeter
 
 ##### sddm display manager
 
-sddm
+#sddm
 
 ##### gdm display manager
 
@@ -167,7 +167,7 @@ sddm
 ##### sudo systemctl enable NetworkManager
 ##### and then reboot
 
-#networkmanager
+networkmanager
 
 
 
@@ -177,7 +177,7 @@ base-devel
 
 ##### want to have linux-headers
 
-#linux-headers
+linux-headers
 
 
 
@@ -203,12 +203,4 @@ chaotic-mirrorlist
 chaotic-keyring
 
 #test
-picom-ibhagwan-git
-
-#conflict test
-
-i3-gaps
-autotiling
-arcolinux-logout-git
-arcolinux-i3wm-git
-arcolinux-dwm-git
+xcursor-sweet
