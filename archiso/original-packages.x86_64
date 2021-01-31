@@ -117,11 +117,10 @@ zsh
 
 sddm
 
-i3-gaps
-
+alci-dwm
 alci-calamares
-alci-calamares-config
-#alci-calamares-config-dev
+#alci-calamares-config
+alci-calamares-config-dev
 xterm
 dex
 

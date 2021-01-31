@@ -112,18 +112,16 @@ zsh
 
 #######################################################
 ###  PACKAGES THAT ARE REMOVED AFTER INSTALLATION   ###
-###                 CALAMARES CONFIG                ###
+###             VIA CALAMARES CONFIG                ###
 #######################################################
 
 sddm
 
-i3-gaps
-
+alci-dwm
 alci-calamares
-alci-calamares-config
-#alci-calamares-config-dev
+#alci-calamares-config
+alci-calamares-config-dev
 xterm
-dex
 
 #######################################################
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
@@ -132,6 +130,10 @@ dex
 bash-completion
 grub
 os-prober
+dex
+libxinerama
+make
+sxhkd
 
 #######################################################
 ###                    EXTRAS                       ###
@@ -139,19 +141,19 @@ os-prober
 
 ##### xorg applications
 
-#xorg-server
-#xorg-apps
+xorg-server
+xorg-apps
 
 
 
 ##### lightdm display manager
 
-#lightdm
-#lightdm-gtk-greeter
+lightdm
+lightdm-gtk-greeter
 
 ##### sddm display manager
 
-#sddm
+sddm
 
 ##### gdm display manager
 
@@ -171,7 +173,7 @@ os-prober
 
 ##### want to have base-devel group
 
-#base-devel
+base-devel
 
 ##### want to have linux-headers
 
@@ -182,23 +184,31 @@ os-prober
 ##### want to have a desktop
 
 #test
-#xfce4
-#xfce4-goodies
+xfce4
+xfce4-goodies
 
 
 
 ##### want to add/use the ArcoLinux repos
 
-#arcolinux-mirrorlist-git
-#arcolinux-keyring
+arcolinux-mirrorlist-git
+arcolinux-keyring
 
 #test
-#arcolinux-wallpapers-git
+arcolinux-wallpapers-git
 
 ##### want to add/use the Chaotic repo
 
-#chaotic-mirrorlist
-#chaotic-keyring
+chaotic-mirrorlist
+chaotic-keyring
 
 #test
-#picom-ibhagwan-git
+picom-ibhagwan-git
+
+#conflict test
+
+i3-gaps
+autotiling
+arcolinux-logout-git
+arcolinux-i3wm-git
+arcolinux-dwm-git
