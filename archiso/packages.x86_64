@@ -118,12 +118,11 @@ zsh
 
 sddm
 
-alci-dwm
-#alci-dwm-nemesis
+#alci-dwm
+alci-dwm-nemesis
 alci-calamares
 #alci-calamares-config
 alci-calamares-config-dev
-xterm
 
 #######################################################
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
@@ -136,6 +135,10 @@ dex
 libxinerama
 make
 xorg-xkill
+
+##### you can also use nmtui from the terminal
+networkmanager
+network-manager-applet
 
 #######################################################
 ###                    EXTRAS                       ###
@@ -172,17 +175,6 @@ lightdm-gtk-greeter
 ##### gdm display manager
 
 #gdm
-
-
-
-##### want to have nmtui to connect to your wireless network via TTY
-##### install the package networkmanager on the iso
-##### enable after installation
-##### sudo systemctl enable NetworkManager
-##### and then reboot
-
-#networkmanager
-#network-manager-applet
 
 
 
