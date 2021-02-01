@@ -118,7 +118,16 @@ zsh
 
 sddm
 
-alci-dwm
+### Choose which DWM system you want to boot into
+### You can only select one
+
+#no bar - full screen calamares
+#alci-dwm
+
+#with bar - system panel - ideal if planning to install networkmanager
+alci-dwm-nemesis
+
+
 alci-calamares
 #alci-calamares-config
 alci-calamares-config-dev
@@ -181,6 +190,7 @@ lightdm-gtk-greeter
 ##### and then reboot
 
 networkmanager
+network-manager-applet
 
 
 
