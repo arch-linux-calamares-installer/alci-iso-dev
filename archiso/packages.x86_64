@@ -146,10 +146,22 @@ xorg-apps
 
 
 
+##### Drivers for graphical cards
+
+#xf86-video-intel
+#xf86-video-amdgpu
+#xf86-video-nouveau
+
+#nvidia
+#nvidia-settings
+#nvidia-utils
+
+
+
 ##### lightdm display manager
 
-#lightdm
-#lightdm-gtk-greeter
+lightdm
+lightdm-gtk-greeter
 
 ##### sddm display manager
 
@@ -157,7 +169,7 @@ xorg-apps
 
 ##### gdm display manager
 
-gdm
+#gdm
 
 
 
@@ -186,8 +198,7 @@ linux-headers
 #test
 #xfce4
 #xfce4-goodies
-#plasma-meta
-gnome
+
 
 
 ##### want to add/use the ArcoLinux repos
