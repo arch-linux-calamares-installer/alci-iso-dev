@@ -186,7 +186,8 @@ linux-headers
 #test
 #xfce4
 #xfce4-goodies
-plasma-meta
+#plasma-meta
+gnome
 
 
 ##### want to add/use the ArcoLinux repos
