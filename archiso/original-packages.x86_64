@@ -141,15 +141,15 @@ xorg-xkill
 
 ##### xorg applications
 
-xorg-server
-xorg-apps
+#xorg-server
+#xorg-apps
 
 
 
 ##### lightdm display manager
 
-lightdm
-lightdm-gtk-greeter
+#lightdm
+#lightdm-gtk-greeter
 
 ##### sddm display manager
 
@@ -167,32 +167,32 @@ lightdm-gtk-greeter
 ##### sudo systemctl enable NetworkManager
 ##### and then reboot
 
-networkmanager
+#networkmanager
 
 
 
 ##### want to have base-devel group
 
-base-devel
+#base-devel
 
 ##### want to have linux-headers
 
-linux-headers
+#linux-headers
 
 
 
 ##### want to have a desktop
 
 #test
-xfce4
-xfce4-goodies
+#xfce4
+#xfce4-goodies
 
 
 
 ##### want to add/use the ArcoLinux repos
 
-arcolinux-mirrorlist-git
-arcolinux-keyring
+#arcolinux-mirrorlist-git
+#arcolinux-keyring
 
 #test
 #arcolinux-wallpapers-git

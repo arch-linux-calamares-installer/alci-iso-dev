@@ -148,16 +148,16 @@ xorg-apps
 
 ##### lightdm display manager
 
-lightdm
-lightdm-gtk-greeter
+#lightdm
+#lightdm-gtk-greeter
 
 ##### sddm display manager
 
-sddm
+#sddm
 
 ##### gdm display manager
 
-#gdm
+gdm
 
 
 
