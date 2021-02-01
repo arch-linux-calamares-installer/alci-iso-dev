@@ -204,12 +204,17 @@ First stop Calamares with Super + Q. Then Super + Enter to have xterm. There you
 
 If you did NOT install it on the iso. These are the steps you can still do.
 
-`setxkbmap be  - I will set my keyboard to azerty
-sudo pacman -Sy - get the pacman databases in
-sudo pacman -S networkmanager - installing the software
-sudo systemctl enable NetworkManager - mind the capital letters
-sudo systemctl start NetworkManager
-nmtui`
+`setxkbmap be  - I will set my keyboard to azerty`
+
+`sudo pacman -Sy - get the pacman databases in`
+
+`sudo pacman -S networkmanager - installing the software`
+
+`sudo systemctl enable NetworkManager - mind the capital letters`
+
+`sudo systemctl start NetworkManager`
+
+`nmtui`
 
 Then connect to the wifi.
 
