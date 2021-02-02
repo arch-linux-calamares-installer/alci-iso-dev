@@ -151,7 +151,7 @@ network-manager-applet
 
 xorg-server
 xorg-apps
-
+neofetch
 
 
 ##### Drivers for graphical cards
@@ -196,6 +196,7 @@ linux-headers
 #test
 xfce4
 xfce4-goodies
+neofetch
 
 
 
