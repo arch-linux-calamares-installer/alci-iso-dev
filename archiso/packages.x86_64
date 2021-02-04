@@ -203,11 +203,11 @@ neofetch
 
 ##### want to add/use the ArcoLinux repos
 
-arcolinux-mirrorlist-git
-arcolinux-keyring
+#arcolinux-mirrorlist-git
+#arcolinux-keyring
 
 #test
-arcolinux-wallpapers-git
+#arcolinux-wallpapers-git
 
 ##### want to add/use the Chaotic repo
 
