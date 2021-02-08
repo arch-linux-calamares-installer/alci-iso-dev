@@ -169,12 +169,12 @@ neofetch
 
 ##### lightdm display manager
 
-lightdm
-lightdm-gtk-greeter
+#lightdm
+#lightdm-gtk-greeter
 
 ##### sddm display manager
 
-#sddm
+sddm
 
 ##### gdm display manager
 
@@ -203,16 +203,23 @@ neofetch
 
 ##### want to add/use the ArcoLinux repos
 
-#arcolinux-mirrorlist-git
-#arcolinux-keyring
+arcolinux-mirrorlist-git
+arcolinux-keyring
 
 #test
-#arcolinux-wallpapers-git
+arcolinux-wallpapers-git
 
 ##### want to add/use the Chaotic repo
 
-#chaotic-mirrorlist
-#chaotic-keyring
+chaotic-mirrorlist
+chaotic-keyring
 
 #test
-#xcursor-sweet
+xcursor-sweet
+
+
+##### want to add/use your local repo packages
+##### create your packages and put them in the local repo
+
+#test
+nemesis-wallpapers
