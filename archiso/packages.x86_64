@@ -116,20 +116,20 @@ zsh
 ###             VIA CALAMARES CONFIG                ###
 #######################################################
 
-sddm
-
 #alci-dwm
 alci-dwm-nemesis
 #alci-calamares
 alci-calamares-dev
 #alci-calamares-config
 alci-calamares-config-dev
+#alci-calamares-pure
 xterm
 
 #######################################################
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
 #######################################################
 
+sddm
 bash-completion
 grub
 os-prober
@@ -169,12 +169,12 @@ neofetch
 
 ##### lightdm display manager
 
-#lightdm
-#lightdm-gtk-greeter
+lightdm
+lightdm-slick-greeter
 
 ##### sddm display manager
 
-sddm
+#sddm
 
 ##### gdm display manager
 
