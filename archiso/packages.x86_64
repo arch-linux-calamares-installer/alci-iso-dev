@@ -169,8 +169,8 @@ neofetch
 
 ##### lightdm display manager
 
-lightdm
-lightdm-slick-greeter
+#lightdm
+#lightdm-gtk-greeter
 
 ##### sddm display manager
 
