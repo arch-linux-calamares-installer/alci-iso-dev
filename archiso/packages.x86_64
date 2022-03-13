@@ -137,8 +137,10 @@ alci-calamares-dev
 #alci-calamares-config
 #alci-calamares-config-btrfs
 alci-calamares-config-dev
+#alci-calamares-config-hardened
 #alci-calamares-config-lts
 #alci-calamares-config-pure
+#alci-calamares-config-xanmod-edge
 #alci-calamares-config-zen
 xterm
 
@@ -148,6 +150,7 @@ xterm
 
 sddm
 bash-completion
+grub
 os-prober
 dex
 libxinerama
