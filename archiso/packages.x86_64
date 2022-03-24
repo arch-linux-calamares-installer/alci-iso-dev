@@ -238,11 +238,11 @@ arcolinux-wallpapers-git
 
 ##### want to add/use the Chaotic repo
 
-chaotic-mirrorlist
-chaotic-keyring
+#chaotic-mirrorlist
+#chaotic-keyring
 
 #test
-xcursor-sweet
+#xcursor-sweet
 
 
 ##### want to add/use your local repo packages
@@ -263,3 +263,4 @@ xcursor-sweet
 #timeshift
 #grub-btrfs
 #timeshift-autosnap
+git
