@@ -61,7 +61,7 @@ If you plan to use Chaotic packages
 
 * chaotic-mirrorlist
 
-You can even add packages from your own personal local repo.
+You can even add packages from your own personal local repo. Run the rebuild script before creating an ISO.
 
 
 If you know you are going to need drivers for graphical cards or NICs put them on the iso.
